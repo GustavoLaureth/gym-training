@@ -9,7 +9,6 @@
 
 body {
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 100vh;
     flex-direction: column;
@@ -17,7 +16,7 @@ body {
 }
 
 .content {
-    width: 350px;
+    width: 90%;
     height: 350px;
 }
 
@@ -48,4 +47,10 @@ body {
 .content button:hover {
     cursor: pointer;
     box-shadow: inset 350px 0 0 0 #edf1f57e;
+}
+
+.title { 
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
