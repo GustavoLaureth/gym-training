@@ -12,28 +12,26 @@
 <body>
     
     <div class="title">
-        <p>Bíceps e Costas</p>
+        <p>Treino de Costas</p>
     </div>
 
     <div class="content">
         <ul>
-            <li><button type="button" data-bs-toggle="modal" data-bs-target="#RemadabModal">
-                Remada Baixa</button></li>
+            <li><button type="button" data-bs-toggle="modal" data-bs-target="#BarraModal">
+                Barra Fixa</button></li>
+            <li><button type="button" data-bs-toggle="modal" data-bs-target="#RemadacModal">
+                Remada Curvada</button></li>
             <li><button type="button" data-bs-toggle="modal" data-bs-target="#RemadamModal">
                 Remada Máquina</button></li>
-            <li><button type="button" data-bs-toggle="modal" data-bs-target="#PulleyModal">
-                Pulley Frente</button></li>
-            <li><button type="button" data-bs-toggle="modal" data-bs-target="#RoscadModal">
-                Rosca Direta</button></li>
-            <li><button type="button" data-bs-toggle="modal" data-bs-target="#RoscascottModal">
-                Rosca Scott</button></li>
-            <li><button type="button" data-bs-toggle="modal" data-bs-target="#Rosca45Modal">
-                Rosca 45°</button></li>
+            <li><button type="button" data-bs-toggle="modal" data-bs-target="#RemadasModal">
+                Remada Serrote</button></li>
+            <li><button type="button" data-bs-toggle="modal" data-bs-target="#PuxadortModal">
+                Puxador Triângulo</button></li>
         </ul>
     </div>
 
 <!-- Modal -->
-<div class="modal fade" id="RemadabModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="BarraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -41,7 +39,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body m-auto">
-        <img src="templates/img/Remadab.png" alt="" class="w-100">
+        <img src="templates/img/Barra.png" alt="" class="w-100">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
@@ -50,7 +48,24 @@
   </div>
 </div>
 
-<div class="modal fade" id="RemadamModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="RemadacModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Exemplo</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body m-auto">
+          <img src="templates/img/Remadac.png" alt="" class="w-100">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="RemadamModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -67,7 +82,7 @@
     </div>
   </div>
 
-  <div class="modal fade" id="PulleyModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="RemadasModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -75,7 +90,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body m-auto">
-          <img src="templates/img/Pulley.png" alt="" class="w-100">
+          <img src="templates/img/Remadas.png" alt="" class="w-100">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
@@ -84,7 +99,7 @@
     </div>
   </div>
 
-  <div class="modal fade" id="RoscadModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="PuxadortModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -92,41 +107,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body m-auto">
-          <img src="templates/img/Roscad.png" alt="" class="w-100">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="RoscascottModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Exemplo</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body m-auto">
-          <img src="templates/img/Roscas.png" alt="" class="w-100">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="Rosca45Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Exemplo</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body m-auto">
-          <img src="templates/img/Rosca45.png" alt="" class="w-100">
+          <img src="templates/img/Puxadort.jpg" alt="" class="w-100">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
